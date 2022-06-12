@@ -95,19 +95,19 @@ namespace AspSneakers.Api.Controllers
             var products = new List<Product>
             {
                 new Product{Name="ADIDAS SUPERSTAR 5",Brand = brands.ElementAt(1),Gender=genders.FirstOrDefault(),
-                Description="Bold and rebellious, striking adidas Rich Mnisi Superstar OT Tech women's lifestyle sneakers represent the latest chapter in the development of the Superstar model."},
+                Description="Bold and rebellious, striking adidas Rich Mnisi Superstar OT Tech women's lifestyle sneakers."},
                 new Product{Name="NIKE AIR FORCE 1 07",Brand = brands.ElementAt(0),Gender=genders.ElementAt(1),
-                Description="Nike Air Force 1 07 mens lifestyle sneakers make your style warm. These sneakers added a winter note to what you know best: stitched layers on the top and bold details."},
+                Description="Nike Air Force 1 07 mens lifestyle sneakers make your style warm."},
                 new Product{Name="PUMA RSX NEO FADE",Brand = brands.ElementAt(6),Gender=genders.ElementAt(0),
-                Description="Puma RSX NEO FADE are men's, lifestyle sneakers. Sneakers that will refresh your shoe collection and bring bright colors, perfect for sunny days. They have an airy upper, with leather reinforcement in the area of ​​the fingers."},
+                Description="Puma RSX NEO FADE are men's, lifestyle sneakers. Sneakers that will refresh your shoe collection and bring bright colors."},
                 new Product{Name="ASICS GEL KAYANO 14",Brand = brands.ElementAt(9),Gender=genders.ElementAt(0),
-                Description="ASICS GEL KAYANO 14 women's sneakers give your mind and body the energy and strength to constantly move forward. Their appearance is modeled on the cult ASICS model GEL-LYTE ™ III, thus paying homage to the rich ASICS heritage."},
+                Description="ASICS GEL KAYANO 14 women's sneakers give your mind and body the energy and strength to constantly move forward. "},
                 new Product{Name="Converse Chuck Taylor All Star",Brand = brands.ElementAt(2),Gender=genders.ElementAt(2),
                 Description="Converse CHUCK TAYLOR ALL STAR are lifestyle sneakers that combine classic and modern details in their unsurpassed design."},
                 new Product{Name="Answer IV Men's Basketball Shoes",Brand = brands.ElementAt(3),Gender=genders.ElementAt(0),
-                Description="The shaped part on the heel and the details in the ankle area are taken from the AJ3 model. The skin layers in the upper associate with AJ11,"},
+                Description="The shaped part on the heel and the details in the ankle area are taken from the AJ3 model. "},
                 new Product{Name="QUEST 4 GORE-TEX",Brand = brands.ElementAt(12),Gender=genders.ElementAt(1),
-                Description="The pursuit of speed continues with the  Quest 4. Higher foam heights and cushioned comfort combine with a lightweight upper that offers secure support. Intuitive details make it a staple for the everyday runner."},
+                Description="The pursuit of speed continues with the  Quest 4. Higher foam heights and cushioned comfort combine with a lightweight upper that offers secure support."}
             };
 
             var productsizes = new List<ProductSize>
@@ -132,7 +132,7 @@ namespace AspSneakers.Api.Controllers
                 new ProductSize{Product=products.ElementAt(5),Size = sizes.ElementAt(12),Stock=1},
                 new ProductSize{Product=products.ElementAt(6),Size = sizes.ElementAt(12),Stock=5},
                 new ProductSize{Product=products.ElementAt(6),Size = sizes.ElementAt(14),Stock=24},
-                new ProductSize{Product=products.ElementAt(6),Size = sizes.ElementAt(8),Stock=4},
+                new ProductSize{Product=products.ElementAt(6),Size = sizes.ElementAt(8),Stock=4}
             };
 
             var priceproducts = new List<PriceProduct>
@@ -143,7 +143,7 @@ namespace AspSneakers.Api.Controllers
                 new PriceProduct{Product = products.ElementAt(3),Price=190 },
                 new PriceProduct{Product = products.ElementAt(4),Price=170 },
                 new PriceProduct{Product = products.ElementAt(5),Price=250 },
-                new PriceProduct{Product = products.ElementAt(6),Price=40 },
+                new PriceProduct{Product = products.ElementAt(6),Price=40 }
             };
 
 
@@ -160,7 +160,7 @@ namespace AspSneakers.Api.Controllers
                 new ProductCategory{Product = products.ElementAt(4),Category = categories.ElementAt(4)},
                 new ProductCategory{Product = products.ElementAt(5),Category = categories.ElementAt(1)},
                 new ProductCategory{Product = products.ElementAt(5),Category = categories.ElementAt(5)},
-                new ProductCategory{Product = products.ElementAt(6),Category = categories.ElementAt(1)},
+                new ProductCategory{Product = products.ElementAt(6),Category = categories.ElementAt(1)}
             };
 
             var userusecases = new List<UserUseCase>
@@ -201,11 +201,15 @@ namespace AspSneakers.Api.Controllers
                 new UserUseCase{User = users.ElementAt(0),UseCaseId=34},
                 new UserUseCase{User = users.ElementAt(0),UseCaseId=35},
                 new UserUseCase{User = users.ElementAt(0),UseCaseId=36},
+                new UserUseCase{User = users.ElementAt(0),UseCaseId=37},
                 new UserUseCase{User = users.ElementAt(1),UseCaseId=3},
                 new UserUseCase{User = users.ElementAt(1),UseCaseId=6},
                 new UserUseCase{User = users.ElementAt(1),UseCaseId=10},
                 new UserUseCase{User = users.ElementAt(1),UseCaseId=15},
+                new UserUseCase{User = users.ElementAt(1),UseCaseId=25},
                 new UserUseCase{User = users.ElementAt(1),UseCaseId=32},
+                new UserUseCase{User = users.ElementAt(1),UseCaseId=36},
+                new UserUseCase{User = users.ElementAt(1),UseCaseId=37}
             };
 
 

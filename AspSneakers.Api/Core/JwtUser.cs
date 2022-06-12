@@ -18,7 +18,7 @@ namespace AspSneakers.Api.Core
 
         public int Id => 0;
 
-        public IEnumerable<int> UseCaseIds => new List<int> { 1,3,6,10,15,21,25 };
+        public IEnumerable<int> UseCaseIds => new List<int> { 1,3,6,15,25};
 
         public string Email => "anonymous@gmail.com";
     }

@@ -16,7 +16,7 @@ namespace AspSneakers.Implementation.UseCases.Queries.Ef.Category
         {
         }
 
-        public int Id => 36;
+        public int Id => 37;
 
         public string Name => "Find specific category.";
 

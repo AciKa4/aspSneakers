@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AspSneakers.DataAccess.Migrations
 {
     [DbContext(typeof(SneakersDbContext))]
-    [Migration("20220609162749_first")]
+    [Migration("20220612121254_first")]
     partial class first
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

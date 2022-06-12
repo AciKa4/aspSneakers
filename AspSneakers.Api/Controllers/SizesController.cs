@@ -32,7 +32,7 @@ namespace AspSneakers.Api.Controllers
         ///
         ///     POST /api/sizes
         ///     {
-        ///        "number" : 45            
+        ///        "number" : 48        
         ///     }
         ///
         /// </remarks>

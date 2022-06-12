@@ -34,7 +34,7 @@ namespace AspSneakers.Api.Controllers
         ///        "firstname" : "Aleksandar",            
         ///        "lastname" : "Test",            
         ///        "email" : "testuser@gmail.com",            
-        ///        "password : "Sifra123!",    
+        ///        "password" : "Sifra123!",    
         ///        "address":"New Adress"
         ///     }
         ///

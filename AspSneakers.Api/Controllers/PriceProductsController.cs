@@ -32,7 +32,7 @@ namespace AspSneakers.Api.Controllers
         ///     POST /api/priceproducts
         ///     {
         ///         "productId": 3,
-        ///         "price": 200
+        ///         "price": 250
         ///     }
         ///
         /// </remarks>
